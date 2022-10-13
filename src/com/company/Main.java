@@ -41,6 +41,62 @@ public class Main {
         System.out.println("За " + tame3 + " минут машины произвела бутылок " +costThree+  " штук.");
         System.out.println("За " + tame4 + " минут машины произвела бутылок " +costFour+  " штук.");
 
+    //Ex5
+       var jar = 120;
+       var brown = 4;
+        var white = 2;
+        var oneClass = brown + white;
+        var ollClass = jar / oneClass;
+        var whiteJar = ollClass * white;
+        var brownJar = ollClass * brown;
+        System.out.println("В школе, где "+ollClass+" классов, нужно "+whiteJar+" банок белой краски и "+brownJar+" банок коричневой краски.");
+
+    //Ex6
+      var bananals = 5 * 80;
+      var milk = 200 * 105;
+      var iskreem = 2 * 100;
+      var egg = 4 * 70;
+      var breakfastGram = bananals+milk+iskreem+egg;
+        System.out.println("Вес спорт завтрака составил: "+breakfastGram /1000+"кг.");
+
+
+    //Ex7
+        var weightDifference = breakfastGram - 7;
+        var option1 = weightDifference /250;
+        var option2 = weightDifference / 500;
+        System.out.println("Первый вариант составит "+option1+" дней, Второй вариант составит "+option2+" дня");
+
+        //Ex8
+        var Masha = 67760;
+        var Denis = 83690;
+        var Kristina = 76230;
+
+        var zpMashaEar = Masha *12;
+        var zpDenisEar = Denis *12;
+        var zpKristinaEar = Kristina *12;
+
+        var zpMashaNew = (((Masha * 10)/100) +Masha)*12;
+        var zpDenisNew = (((Denis * 10)/100)+ Denis)*12;
+        var zpKristinaNew = (((Kristina * 10)/100) + Kristina)*12;
+
+        var differenceZpMasha = zpMashaNew -zpMashaEar;
+        var differenceZpDenis = zpDenisNew - zpDenisEar;
+        var differenceZpKristina = zpKristinaNew - zpKristinaEar;
+
+        System.out.println("Годовой доход до повышения зарплаты: ");
+        System.out.println("Маша "+ zpMashaEar);
+        System.out.println("Денис " + zpDenisEar);
+        System.out.println("Кристина "+ zpKristinaEar);
+
+        System.out.println("После повышения зарплаты");
+        System.out.println("Маша "+ zpMashaNew);
+        System.out.println("Денис"+ zpDenisNew);
+        System.out.println("Кристина"+ zpKristinaNew);
+
+        System.out.println("Разница годового дохода после повышения");
+        System.out.println("Маша " +differenceZpMasha);
+        System.out.println("Денис " +differenceZpDenis);
+        System.out.println("Кристина " +differenceZpKristina);
 
     }
 }
